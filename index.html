@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CCI Recreation</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+
+	<div class='navbar'>
+
+		<div class="leftNav">
+			<img src="./images/cci logo.jpg">
+			<div>
+				<span>Menu</span><img src="./images/angle-arrow-down.png">
+			</div>
+		</div>
+
+		<div class="centerNav">
+			<img src="./images/plus.png">
+			<img src="./images/search icon.png">
+		</div>
+
+		<div class="rightNav">
+			<img class='akademia-logo' src="./images/akademia.png">
+			<img class='notificationLogo' src="./images/notification.png">
+			<img class="profilePhoto" src="./images/albumtemp.jpg">
+		</div>
+
+	</div>
+
+	<div class="contentContainer">
+		
+		<div class="headerDiv">
+			
+			<div class="innerHeader">
+				<div>
+					
+					<img src="./images/left-arrow.png">
+
+				</div>
+				<span>Participants</span>
+			</div>
+
+
+		</div>
+
+		<div class="tableContainer">
+			
+			<div id="searchFormCol" class='initialSearchCol'>
+				
+				<div class="searchHeader">
+					<div>
+						<span>Search</span>
+						<img class='searchAdd' src="./images/add (2).png">
+						<img class='searchMinus' src="https://icon-library.net/images/minus-icon-png/minus-icon-png-17.jpg">
+						
+					</div>
+				</div>
+
+				<form class="searchForm">
+					<div class='primaryForm'>
+						
+						<input class='textInput' type="text" name="param" placeholder='Enter Text ...'>
+
+						<div class='standardForm'>
+							
+							<label>CCI ID: </label>
+							<div class='inputContainer'>
+								
+								<input class="standardInput" type='text' name='cciId' placeholder='Enter CCI ID'></input>
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>First Name: </label>
+							<div class='inputContainer'>
+								
+								<input class="standardInput" type='text' name='firstName' placeholder='Enter First Name'></input>
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Last Name: </label>
+							<div class='inputContainer'>
+								
+								<input class="standardInput" type='text' name='lastName' placeholder='Enter Last Name'></input>
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Email: </label>
+							<div class='inputContainer'>
+								
+								<input class="standardInput" type='text' name='email' placeholder='Enter Email'></input>
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Start Date Min: </label>
+							<div class='inputContainer'>
+								
+								<input class="standardInput dateInput" type='text' name='startDate' placeholder='Enter Date'></input>
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Start Date Max: </label>
+							<div class='inputContainer'>
+								
+								<input class="standardInput dateInput" type='text' name='startDateMax' placeholder='Enter Date'></input>
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Season </label>
+							<div class='inputContainer'>
+								
+								<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+									<option value='' disabled selected>Select</option>
+
+									<option value='option1'>Option 1</option>
+
+									<option value='option 2'>Option 2</option>
+
+									<option value='option 3'>Option 3</option>
+
+									<option value='option 4'>Option 4</option>
+
+
+								</select>
+								
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Program Option </label>
+							<div class='inputContainer'>
+								
+								<select class="standardInput selectInput" type='text' name='season' placeholder='Enter Date'>
+
+									<option value='' disabled selected>Select</option>
+
+									<option value='season 1'>Season 1</option>
+
+									<option value='season 2'>Season 2</option>
+
+									<option value='season 3'>Season 3</option>
+
+									<option value='season 4'>Season 4</option>
+
+
+								</select>
+
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Application Status </label>
+							<div class='inputContainer'>
+								
+								<select class="standardInput selectInput" type='text' name='season' placeholder='Enter Date'>
+
+									<option value='' disabled selected>Select</option>
+
+									<option value='season 1'>Season 1</option>
+
+									<option value='season 2'>Season 2</option>
+
+									<option value='season 3'>Season 3</option>
+
+									<option value='season 4'>Season 4</option>
+
+
+								</select>
+								
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Placement Status </label>
+							<div class='inputContainer'>
+								
+								<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+									<option value='' disabled selected>Select</option>
+
+									<option value='option1'>Option 1</option>
+
+									<option value='option 2'>Option 2</option>
+
+									<option value='option 3'>Option 3</option>
+
+									<option value='option 4'>Option 4</option>
+
+
+								</select>
+								
+							</div>
+
+						</div>
+
+						<div class='standardForm'>
+							
+							<label>Sub Partner </label>
+							<div class='inputContainer'>
+								
+								<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+									<option value='' disabled selected>Select</option>
+
+									<option value='option1'>Option 1</option>
+
+									<option value='option 2'>Option 2</option>
+
+									<option value='option 3'>Option 3</option>
+
+									<option value='option 4'>Option 4</option>
+
+
+								</select>
+								
+							</div>
+
+						</div>
+					</div>
+
+					<div class="expandedSearch">
+
+						<div>
+							
+
+							<div class='standardForm'>
+								
+								<label>CCI ID: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='cciId' placeholder='Enter CCI ID'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>First Name: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='firstName' placeholder='Enter First Name'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Last Name: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='lastName' placeholder='Enter Last Name'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Email: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='email' placeholder='Enter Email'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Start Date Min: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput dateInput" type='text' name='startDate' placeholder='Enter Date'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Start Date Max: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput dateInput" type='text' name='startDateMax' placeholder='Enter Date'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Season </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='option1'>Option 1</option>
+
+										<option value='option 2'>Option 2</option>
+
+										<option value='option 3'>Option 3</option>
+
+										<option value='option 4'>Option 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Program Option </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='season' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='season 1'>Season 1</option>
+
+										<option value='season 2'>Season 2</option>
+
+										<option value='season 3'>Season 3</option>
+
+										<option value='season 4'>Season 4</option>
+
+
+									</select>
+
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Application Status </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='season' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='season 1'>Season 1</option>
+
+										<option value='season 2'>Season 2</option>
+
+										<option value='season 3'>Season 3</option>
+
+										<option value='season 4'>Season 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Placement Status </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='option1'>Option 1</option>
+
+										<option value='option 2'>Option 2</option>
+
+										<option value='option 3'>Option 3</option>
+
+										<option value='option 4'>Option 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Sub Partner </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='option1'>Option 1</option>
+
+										<option value='option 2'>Option 2</option>
+
+										<option value='option 3'>Option 3</option>
+
+										<option value='option 4'>Option 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+						</div>
+
+						<div>
+							
+
+							<div class='standardForm'>
+								
+								<label>CCI ID: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='cciId' placeholder='Enter CCI ID'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>First Name: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='firstName' placeholder='Enter First Name'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Last Name: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='lastName' placeholder='Enter Last Name'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Email: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput" type='text' name='email' placeholder='Enter Email'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Start Date Min: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput dateInput" type='text' name='startDate' placeholder='Enter Date'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Start Date Max: </label>
+								<div class='inputContainer'>
+									
+									<input class="standardInput dateInput" type='text' name='startDateMax' placeholder='Enter Date'></input>
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Season </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='option1'>Option 1</option>
+
+										<option value='option 2'>Option 2</option>
+
+										<option value='option 3'>Option 3</option>
+
+										<option value='option 4'>Option 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Program Option </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='season' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='season 1'>Season 1</option>
+
+										<option value='season 2'>Season 2</option>
+
+										<option value='season 3'>Season 3</option>
+
+										<option value='season 4'>Season 4</option>
+
+
+									</select>
+
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Application Status </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='season' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='season 1'>Season 1</option>
+
+										<option value='season 2'>Season 2</option>
+
+										<option value='season 3'>Season 3</option>
+
+										<option value='season 4'>Season 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Placement Status </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='option1'>Option 1</option>
+
+										<option value='option 2'>Option 2</option>
+
+										<option value='option 3'>Option 3</option>
+
+										<option value='option 4'>Option 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+
+							<div class='standardForm'>
+								
+								<label>Sub Partner </label>
+								<div class='inputContainer'>
+									
+									<select class="standardInput selectInput" type='text' name='subPartner' placeholder='Enter Date'>
+
+										<option value='' disabled selected>Select</option>
+
+										<option value='option1'>Option 1</option>
+
+										<option value='option 2'>Option 2</option>
+
+										<option value='option 3'>Option 3</option>
+
+										<option value='option 4'>Option 4</option>
+
+
+									</select>
+									
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</form>
+
+			</div>
+
+			<div id="displayCol" class='initalDisplayCol'>
+
+				<div class="displayHeader">
+
+					<div class='displayHeaderContainer'>
+						<div class="displayDesc active">
+							<span>Activated</span>
+							<img src="./images/info-circle-outline.png">
+						</div>
+
+						
+
+						<div class="displayNav">
+							
+							<div id="activated" class="displayNavItem activeDisplayNav">
+								<span>Activated</span>
+							</div>
+
+							<div id="leads" class="displayNavItem">
+								<span>Leads</span>
+							</div>
+
+							<div id="monitoring" class="displayNavItem">
+								<span>Monitoring</span>
+							</div>
+
+							<div id="addParticipant" class="displayNavItem">
+								<span>Add Participant</span>
+							</div>
+
+						</div>
+						
+					</div>
+
+				</div>
+
+				<div class='activated'>
+					
+
+
+					<form>
+						<div class="activatedHeader">
+							
+							<div class="selectAll">
+								<input type='checkbox' >
+
+								<p>(17)</p>
+							</div>
+
+							<div class="sort">
+								<span>Export List</span>
+							</div>
+
+						</div>
+						
+						<div class=personInput>
+							
+							<div class="personContainer">
+								
+								<div class="personCheck">
+									<div>
+										
+										<input class='personCheckbox'type="checkbox" name="personCheckbox">
+										<img src="./images/albumtemp.JPG">
+										
+									</div>
+
+								</div>
+
+								<div class="personInfo">
+									
+									<div class="personInfoHeader">
+										
+											
+											<span>Wes Marberry </span>
+											<p> CC ID: 99977</p>
+											
+										
+
+									</div>
+
+									<div class="personInfoContent">
+
+										<p><span>Season :</span>Season Name</p>
+
+										<p><span>Start Date :</span>mm/dd/yy</p>
+
+										<p><span>Sub Partner :</span>Sub Partner</p>
+
+										<p class='redP'><span>Guaranteed :</span>No</p>
+
+										<p><span>Program Option :</span>Program Option</p>
+
+										<p><span>End Date :</span>mm/dd/yy</p>
+
+										<p class='greenP'><span>Placement Status :</span>Active</p>
+
+										<p class='redP'><span>Submitted Flight Info :</span>No</p>
+
+										<p><span>Email :</span>email@loremipsum.com</p>
+
+										<p><span>Country :</span>Country</p>
+
+										<p class='greenP'><span>App. Status :</span>Accepted</p>
+
+										
+										
+									</div>
+
+								</div>
+								
+							</div>
+
+							<div class="personFooter">
+								<div>
+									<button>Print JF Profile</button>
+									<button>Assign Season</button>
+								</div>
+
+
+							</div>
+
+							
+						</div>
+
+						<div class=personInput>
+							
+							<div class="personContainer">
+								
+								<div class="personCheck">
+									<div>
+										
+										<input class='personCheckbox'type="checkbox" name="personCheckbox">
+										<img src="./images/albumtemp.JPG">
+										
+									</div>
+
+								</div>
+
+								<div class="personInfo">
+									
+									<div class="personInfoHeader">
+										
+											
+											<span>Wes Marberry </span>
+											<p> CC ID: 99977</p>
+											
+										
+
+									</div>
+
+									<div class="personInfoContent">
+
+										<p><span>Season :</span>Season Name</p>
+
+										<p><span>Start Date :</span>mm/dd/yy</p>
+
+										<p><span>Sub Partner :</span>Sub Partner</p>
+
+										<p class='redP'><span>Guaranteed :</span>No</p>
+
+										<p><span>Program Option :</span>Program Option</p>
+
+										<p><span>End Date :</span>mm/dd/yy</p>
+
+										<p class='greenP'><span>Placement Status :</span>Active</p>
+
+										<p class='redP'><span>Submitted Flight Info :</span>No</p>
+
+										<p><span>Email :</span>email@loremipsum.com</p>
+
+										<p><span>Country :</span>Country</p>
+
+										<p class='greenP'><span>App. Status :</span>Accepted</p>
+
+										
+										
+									</div>
+
+								</div>
+								
+							</div>
+
+							<div class="personFooter">
+								<div>
+									<button>Print JF Profile</button>
+									<button>Assign Season</button>
+								</div>
+
+
+							</div>
+
+							
+						</div>
+
+						<div class=personInput>
+							
+							<div class="personContainer">
+								
+								<div class="personCheck">
+									<div>
+										
+										<input class='personCheckbox'type="checkbox" name="personCheckbox">
+										<img src="./images/albumtemp.JPG">
+										
+									</div>
+
+								</div>
+
+								<div class="personInfo">
+									
+									<div class="personInfoHeader">
+										
+											
+											<span>Wes Marberry </span>
+											<p> CC ID: 99977</p>
+											
+										
+
+									</div>
+
+									<div class="personInfoContent">
+
+										<p><span>Season :</span>Season Name</p>
+
+										<p><span>Start Date :</span>mm/dd/yy</p>
+
+										<p><span>Sub Partner :</span>Sub Partner</p>
+
+										<p class='redP'><span>Guaranteed :</span>No</p>
+
+										<p><span>Program Option :</span>Program Option</p>
+
+										<p><span>End Date :</span>mm/dd/yy</p>
+
+										<p class='greenP'><span>Placement Status :</span>Active</p>
+
+										<p class='redP'><span>Submitted Flight Info :</span>No</p>
+
+										<p><span>Email :</span>email@loremipsum.com</p>
+
+										<p><span>Country :</span>Country</p>
+
+										<p class='greenP'><span>App. Status :</span>Accepted</p>
+
+										
+										
+									</div>
+
+								</div>
+								
+							</div>
+
+							<div class="personFooter">
+								<div>
+									<button>Print JF Profile</button>
+									<button>Assign Season</button>
+								</div>
+
+
+							</div>
+
+							
+						</div>
+
+						<div class=personInput>
+							
+							<div class="personContainer">
+								
+								<div class="personCheck">
+									<div>
+										
+										<input class='personCheckbox'type="checkbox" name="personCheckbox">
+										<img src="./images/albumtemp.JPG">
+										
+									</div>
+
+								</div>
+
+								<div class="personInfo">
+									
+									<div class="personInfoHeader">
+										
+											
+											<span>Wes Marberry </span>
+											<p> CC ID: 99977</p>
+											
+										
+
+									</div>
+
+									<div class="personInfoContent">
+
+										<p><span>Season :</span>Season Name</p>
+
+										<p><span>Start Date :</span>mm/dd/yy</p>
+
+										<p><span>Sub Partner :</span>Sub Partner</p>
+
+										<p class='redP'><span>Guaranteed :</span>No</p>
+
+										<p><span>Program Option :</span>Program Option</p>
+
+										<p><span>End Date :</span>mm/dd/yy</p>
+
+										<p class='greenP'><span>Placement Status :</span>Active</p>
+
+										<p class='redP'><span>Submitted Flight Info :</span>No</p>
+
+										<p><span>Email :</span>email@loremipsum.com</p>
+
+										<p><span>Country :</span>Country</p>
+
+										<p class='greenP'><span>App. Status :</span>Accepted</p>
+
+										
+										
+									</div>
+
+								</div>
+								
+							</div>
+
+							<div class="personFooter">
+								<div>
+									<button>Print JF Profile</button>
+									<button>Assign Season</button>
+								</div>
+
+
+							</div>
+
+							
+						</div>
+
+						<div class=personInput>
+							
+							<div class="personContainer">
+								
+								<div class="personCheck">
+									<div>
+										
+										<input class='personCheckbox'type="checkbox" name="personCheckbox">
+										<img src="./images/albumtemp.JPG">
+										
+									</div>
+
+								</div>
+
+								<div class="personInfo">
+									
+									<div class="personInfoHeader">
+										
+											
+											<span>Wes Marberry </span>
+											<p> CC ID: 99977</p>
+											
+										
+
+									</div>
+
+									<div class="personInfoContent">
+
+										<p><span>Season :</span>Season Name</p>
+
+										<p><span>Start Date :</span>mm/dd/yy</p>
+
+										<p><span>Sub Partner :</span>Sub Partner</p>
+
+										<p class='redP'><span>Guaranteed :</span>No</p>
+
+										<p><span>Program Option :</span>Program Option</p>
+
+										<p><span>End Date :</span>mm/dd/yy</p>
+
+										<p class='greenP'><span>Placement Status :</span>Active</p>
+
+										<p class='redP'><span>Submitted Flight Info :</span>No</p>
+
+										<p><span>Email :</span>email@loremipsum.com</p>
+
+										<p><span>Country :</span>Country</p>
+
+										<p class='greenP'><span>App. Status :</span>Accepted</p>
+
+										
+										
+									</div>
+
+								</div>
+								
+							</div>
+
+							<div class="personFooter">
+								<div>
+									<button>Print JF Profile</button>
+									<button>Assign Season</button>
+								</div>
+
+
+							</div>
+
+							
+						</div>
+
+					</form>
+				</div>
+
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="footer">
+		<div class='searchFooter'>
+			<button>Search</button>
+			
+		</div>
+		<div class='buttonFooter'>
+			<button>Assign Sub Partner</button>
+			<button>Reset Password</button>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+<script type="text/javascript" src='js/app.js'></script>
+</body>
+</html>
